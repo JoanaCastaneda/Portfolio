@@ -69,6 +69,23 @@ nav ul li a {
     
 }
 
+
+.responsive-container {
+    width: 100%; /* Adjust as needed */
+    max-width: 800px; /* Optional: set a max width */
+    overflow: hidden; /* Ensure no overflow */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.responsive-image {
+    width: 100%; /* Image will take full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space for inline images */
+}
+
 @media (max-width: 768px) {
     .box3titles {
         flex: 1 1 calc(50% - 20px); /* 50% width on medium screens */
