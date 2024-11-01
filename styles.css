@@ -28,8 +28,59 @@ nav ul li a {
 }
 
 
+.colorLinks{
 
- 
+    color: #009485;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.note{
+    text-align:center;
+    color: #009485;
+
+}
+
+
+.container3titles {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    padding: 10px;
+}
+
+.box3titles {
+   
+    color: white;
+    text-align: center;
+   
+   
+    flex: 1 1 calc(33% - 20px); /* Responsive width for larger screens */
+    box-sizing: border-box; /* Include padding and margin in width */
+}
+.gallery-item3 {
+    width: 79%;
+    border-radius: 8px;
+    transition: transform 0.2s, filter 0.2s;
+  /*  cursor: pointer;*/
+    border: 1px solid #e35f92;
+    background-color: #e35f92;
+    
+}
+
+@media (max-width: 768px) {
+    .box3titles {
+        flex: 1 1 calc(50% - 20px); /* 50% width on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .box3titles {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
+
 
   
 
@@ -79,6 +130,7 @@ font-size: 3.5rem; /* Adjust font size as needed */
     text-align: center;
     color:#fafafa ;
     font-weight: 600;
+
     
 }
 .columns3 {
@@ -245,6 +297,7 @@ footer {
 .titleWebP{
 
     text-align: center;
+    padding-top:10px;
 }
 
 .textWebP{
@@ -414,13 +467,16 @@ button {
 
   .Det
   {
-    color: #fafafa;
-   padding-left: 5px;
+   
+   /* border-top: 1px solid#009485;*/
+    border-bottom: 4px solid #e35f92;;
+    padding-left: 5px;
    padding-top: 2px;
    padding-bottom: 2px;
     border-radius:4px;
-    background-color: #009485;
+   /* background-color: #009485;*/
     margin-top: 10px;
+    text-align: center;
   }
 
 
