@@ -15,7 +15,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
 nav ul li {
@@ -25,7 +25,22 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+  
+   
+  
 }
+
+
+.menu a {
+   
+    transition: transform 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.menu a:hover {
+    transform: scale(1.2); /* Zoom-in effect */
+    color: #fff; /* Change text color on hover */
+}
+
 
 
 .colorLinks{
@@ -122,7 +137,10 @@ font-size: 3.5rem; /* Adjust font size as needed */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding-left: 20px;
+   /* padding-top: 20px;*/
+    padding-right: 20px;
+    padding-bottom: 2px;
 }
 
 
@@ -514,7 +532,7 @@ button {
     position: absolute;
     border-radius:5%;
     animation: carousel 9s infinite ease-in-out;
-    max-width: 580px;
+    max-width: 460px;
 }
 
 .one {
@@ -533,25 +551,25 @@ button {
 
 @keyframes carousel {
     0% {
-        transform: translate(-320px);
+        transform: translate(-180px);
         scale: 50%;
         z-index: -1;
     }
 
     33% {
         transform: translate(0px);
-        scale: 100%;
+        scale: 83%;
         z-index: 1;
     }
 
     66% {
-        transform: translate(320px);
+        transform: translate(180px);
         scale: 50%;
         z-index: -1;
     }
 
     100% {
-        transform: translate(-320px);
+        transform: translate(-180px);
         scale: 50%;
         z-index: -1;
     }
@@ -579,9 +597,9 @@ button {
 @media screen and (max-width: 600px) {
     .cell {
         flex: 100%; /* Stacks the cells vertically */
-        text-align: right;
+        text-align: center;
         position: relative;
-        padding-left: 50%;
+       /* padding-left: 50%;*/
     }
     .cell::before {
         content: attr(data-label);
