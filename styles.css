@@ -26,19 +26,19 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
   
-   
+
   
 }
 
 
-.menu a {
+a {
    
-    transition: transform 0.3s, color 0.3s; /* Smooth transition */
+    transition: transform 0.3s; /* Smooth transition */
 }
 
-.menu a:hover {
-    transform: scale(1.2); /* Zoom-in effect */
-    color: #fff; /* Change text color on hover */
+a:hover {
+    transform: scale(1.4); /* Zoom-in effect */
+    color: #e35f92;; /* Change text color on hover */
 }
 
 
