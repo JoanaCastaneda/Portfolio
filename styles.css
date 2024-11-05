@@ -59,6 +59,20 @@ a:hover {
 }
 
 
+.contactTxt{
+
+    text-align:center;
+    color: #009485;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 8vh;
+
+}
+
+
+
+
+
 .container3titles {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to the next line */
@@ -227,7 +241,7 @@ font-size: 3.5rem; /* Adjust font size as needed */
 
 .firstInfo{
 
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .firstInfo2{
