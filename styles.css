@@ -93,8 +93,8 @@ a:hover {
     border-radius: 8px;
     transition: transform 0.2s, filter 0.2s;
   /*  cursor: pointer;*/
-    border: 1px solid #e35f92;
-    background-color: #e35f92;
+   /* border: 1px solid #e35f92;*/
+   /* background-color: #e35f92;*/
     
 }
 
