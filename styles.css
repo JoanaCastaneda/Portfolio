@@ -49,6 +49,7 @@ a:hover {
     font-weight: 800;
     cursor: pointer;
     text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -546,7 +547,7 @@ button {
 .icon {
     position: absolute;
     border-radius:5%;
-    animation: carousel 9s infinite ease-in-out;
+    animation: carousel 12s infinite ease-in-out;
     max-width: 460px;
 }
 
@@ -563,6 +564,12 @@ button {
  /* filter: hue-rotate(25deg);*/
     animation-delay: -6s;
 }
+
+.four {
+    /* filter: hue-rotate(25deg);*/
+       animation-delay: -9s;
+   }
+
 
 @keyframes carousel {
     0% {
