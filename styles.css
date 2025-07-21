@@ -29,8 +29,10 @@ nav ul li a {
 
   
 }
+ul{
+padding-inline-start: 5px;
 
-
+}
 a {
    
     transition: transform 0.3s; /* Smooth transition */
@@ -78,7 +80,17 @@ a:hover {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to the next line */
     padding-bottom: 10px;
-    padding-left: 7vh;
+   /* padding-left: 7vh;*/
+    padding-right: 1vh;
+    padding-top: 10px;
+}
+
+
+.containerEmail {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    padding-bottom: 10px;
+    padding-left: 10vh;
     padding-right: 1vh;
     padding-top: 10px;
 }
