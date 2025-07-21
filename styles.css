@@ -77,7 +77,10 @@ a:hover {
 .container3titles {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to the next line */
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-left: 7vh;
+    padding-right: 1vh;
+    padding-top: 10px;
 }
 
 .box3titles {
@@ -638,3 +641,23 @@ button {
 .boceto{
     max-width: 310px;
 }
+
+
+.dateUpdate{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+
+
+.scroll-box {
+    width: 300px;
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+  }
+
+  .scroll-box img {
+    width: 100%;
+    height: auto;
+  }
