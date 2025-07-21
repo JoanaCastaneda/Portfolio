@@ -90,7 +90,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to the next line */
     padding-bottom: 10px;
-    padding-left: 10vh;
+    padding-left: 8vh;
     padding-right: 1vh;
     padding-top: 10px;
 }
