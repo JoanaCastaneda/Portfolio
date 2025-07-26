@@ -90,7 +90,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to the next line */
     padding-bottom: 10px;
-    padding-left: 8vh;
+    padding-left: 7vh;
     padding-right: 1vh;
     padding-top: 10px;
 }
@@ -499,7 +499,7 @@ button {
     display: inline-block;
     font-size: 16px;
     border-radius:30px;
-    margin-left: 45%;
+    margin-left: 43%;
     margin-right: auto;
   }
 
