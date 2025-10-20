@@ -99,11 +99,16 @@ a:hover {
    
     color: white;
     text-align: center;
+    padding-top: 2vh;
    
    
     flex: 1 1 calc(33% - 20px); /* Responsive width for larger screens */
     box-sizing: border-box; /* Include padding and margin in width */
 }
+
+
+
+
 .gallery-item3 {
     width: 79%;
     border-radius: 8px;
@@ -455,10 +460,36 @@ button {
     
 }
 
+
+
+
 .gallery-item:hover {
     transform: scale(1.05);
     filter: brightness(90%);
 }
+
+
+.galleryINF {
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: auto;           /* rows adjust to content */
+    gap: 10px;
+    padding: 25px;
+    
+}
+
+.galleryINF-item {
+    width: 70%;
+    border-radius: 8px;
+    transition: transform 0.2s, filter 0.2s;
+   /* cursor: pointer;*/
+    border: 3px solid rgb(239, 239, 239);
+    
+}
+
+
+
 
 .lightbox {
     display: none;
@@ -509,7 +540,7 @@ button {
     background-color:#009485;; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 11px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -665,13 +696,17 @@ button {
 
 .scroll-box {
     width: 300px;
-    height: 500px;
+    height: 550px;
     overflow-y: auto;
     border: 1px solid #ccc;
     margin-bottom: 3vh;
   }
 
+
+  
+
   .scroll-box img {
     width: 100%;
     height: auto;
   }
+
